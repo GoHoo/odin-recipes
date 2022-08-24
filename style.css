@@ -1,4 +1,39 @@
-*{
+body{
     font-family: "Dancing Script";
-    background-image: url("https://media.gq.com/photos/59dfc6d9d61cb80476584e18/1:1/w_676,h_676,c_limit/guy-fieiri-flame.jpg");
+    background-size : contain;
+    background-repeat : repeat;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("https://media.gq.com/photos/59dfc6d9d61cb80476584e18/1:1/w_676,h_676,c_limit/guy-fieiri-flame.jpg");
+}
+
+h1{
+    font-family: 'Shadows Into Light', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a{
+    color: blueviolet;
+    font-weight: 900;
+    font-family: "Shadows Into Light";
+
+}
+a:visited{
+    color: green;
+}
+
+.shef{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.food{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
